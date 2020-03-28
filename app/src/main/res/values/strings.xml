@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">WriteHelper</string>
+    <string name="hints">Search about your topic here</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="inbox">Inbox</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="notes">Notes</string>
+    <string name="note">Note</string>
+    <string name="write_notes">write your notes here</string>
+    <string name="file">File</string>
+    <string name="font">Fonts</string>
+    <string name="notebook">notebook</string>
+</resources>
