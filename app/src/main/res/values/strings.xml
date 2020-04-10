@@ -12,4 +12,8 @@
     <string name="file">File</string>
     <string name="font">Fonts</string>
     <string name="notebook">notebook</string>
+    <string name="hello">Hello World, AndroidPageCurlActivity!</string>
+    <string name="list_example">List Example</string>
+    <string name="standalone_example">Standalone Example</string>
+    <string name="description">Description</string>
 </resources>
