@@ -3,21 +3,26 @@
 
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:id="@+id/drawer_layout"
-    android:layout_width="match_parent"
-    android:layout_height="250sp"
+    android:layout_width="wrap_content"
+    android:layout_height="250dp"
     android:theme="@style/ThemeOverlay.AppCompat.Dark">
-    <ImageView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:scaleType="centerCrop"
-        android:src="@drawable/notedrawer" />
-    <EditText
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:scaleType="centerCrop"
+            android:src="@drawable/notedrawer" />
+        <EditText
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:hint="@string/write_notes"
+            android:textCursorDrawable="@drawable/cursor"
             android:textAppearance="@style/TextAppearance.AppCompat.Body1"/>
 
-
+    </LinearLayout>
 
 
 </android.support.v4.widget.DrawerLayout>

@@ -63,7 +63,7 @@ public class MainActivity extends AppCompatActivity {
         EditText editText = findViewById(R.id.edit_text);
         @Override
         public void onClick(View v) {
-            editText.setSelection(editText.getText().length()-1);
+            editText.setSelection(editText.getText().length());
             Uri uri =  Uri.parse("https://www.google.com");
             Intent intent = new Intent(Intent.ACTION_VIEW  , uri);
             startActivity(intent);
